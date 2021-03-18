@@ -21,6 +21,9 @@
                 </li>
                     <a class="nav-link" href="sites/upload.php">Upload link</a>
                 </li>
+                <li>
+                    <a class="nav-link" href="#">Test</a>
+                </li>
             </ul>
         </div>
     </div>
