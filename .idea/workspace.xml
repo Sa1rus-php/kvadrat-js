@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/server/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nvzX7nDrZoTPMfcUtPgM7FyEJM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/sites" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/sites" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/server/txt" />
+      <recent name="$PROJECT_DIR$/server/css" />
+      <recent name="$PROJECT_DIR$/server/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/sites" />
+      <recent name="$PROJECT_DIR$/server/site" />
+      <recent name="$PROJECT_DIR$/server/func" />
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="" />
+      <created>1612285388511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612285388511</updated>
+      <workItem from="1612285389649" duration="2146000" />
+      <workItem from="1612457895478" duration="309000" />
+      <workItem from="1612506095884" duration="3459000" />
+      <workItem from="1612525815264" duration="350000" />
+      <workItem from="1612537681569" duration="8254000" />
+      <workItem from="1612701252391" duration="2669000" />
+      <workItem from="1612808567133" duration="369000" />
+      <workItem from="1612995352615" duration="742000" />
+      <workItem from="1613157480166" duration="10325000" />
+      <workItem from="1613495191401" duration="558000" />
+      <workItem from="1613564336692" duration="9129000" />
+      <workItem from="1613601037387" duration="10476000" />
+      <workItem from="1614446961986" duration="6015000" />
+      <workItem from="1614613802464" duration="12693000" />
+      <workItem from="1614810960487" duration="6030000" />
+      <workItem from="1614843629960" duration="512000" />
+      <workItem from="1615220039695" duration="24284000" />
+      <workItem from="1615532153349" duration="2509000" />
+      <workItem from="1615636290676" duration="2698000" />
+      <workItem from="1615997476585" duration="7875000" />
+      <workItem from="1616068893128" duration="578000" />
+      <workItem from="1616088637442" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="460" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615739163674">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="460" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1615739163674" />
+    <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616005656520">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1616005656520" />
+    <state x="458" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.821@0.23.1440.821" timestamp="1615225154952" />
+    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1616006106497">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1616006106497" />
+    <state x="539" y="370" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1615532495184" />
+    <state x="221" y="72" key="SettingsEditor" timestamp="1613312883183">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="221" y="72" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1613312883183" />
+    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1615278363720">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1615278363720" />
+  </component>
+</project>
