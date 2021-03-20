@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="" />
+    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="Добавил новую ссылку">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1nvzX7nDrZoTPMfcUtPgM7FyEJM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,11 +93,32 @@
       <workItem from="1615997476585" duration="7875000" />
       <workItem from="1616068893128" duration="578000" />
       <workItem from="1616088637442" duration="69000" />
+      <workItem from="1616088842146" duration="1700000" />
     </task>
+    <task id="LOCAL-00001" summary="my pr, test commit">
+      <created>1616088951056</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616088951056</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавил новую ссылку">
+      <created>1616089166945</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616089166945</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my pr, test commit" />
+    <MESSAGE value="Добавил новую ссылку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил новую ссылку" />
   </component>
   <component name="WindowStateProjectService">
     <state x="460" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615739163674">
@@ -102,6 +130,10 @@
     </state>
     <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1616005656520" />
     <state x="458" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.821@0.23.1440.821" timestamp="1615225154952" />
+    <state x="526" y="359" key="Github.CreateGistDialog" timestamp="1616088859292">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="526" y="359" key="Github.CreateGistDialog/0.23.1440.821@0.23.1440.821" timestamp="1616088859292" />
     <state x="539" y="380" key="NewPhpFileDialog" timestamp="1616006106497">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -111,6 +143,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="221" y="72" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1613312883183" />
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1616089180318">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1616089180318" />
     <state x="425" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1615278363720">
       <screen x="0" y="23" width="1440" height="821" />
     </state>

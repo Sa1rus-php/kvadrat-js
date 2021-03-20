@@ -19,10 +19,8 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
-                    <a class="nav-link" href="sites/upload.php">Upload link</a>
-                </li>
                 <li>
-                    <a class="nav-link" href="#">Test</a>
+                    <a class="nav-link" href="sites/upload.php">Upload link</a>
                 </li>
             </ul>
         </div>
