@@ -1,8 +1,0 @@
-Alexander;Petrov;12;male
-Ivan;Ivanov;14;male
-Petr;Petrovich;20;male
-Olga;Petrovna;24;female
-Irina;Olegovich;45;female
-Anna;Khakin;10;female
-Mixail;Krug;19;male
-Jonh;Braun;39;male
