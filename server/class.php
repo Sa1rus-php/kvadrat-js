@@ -151,3 +151,4 @@ $Person_second_class->setDriving($PersonDriving_second);
 $allsalary=$Person_first_class->getSalary()+$Person_second_class->getSalary();
 $Person_first_class->OutPut();
 $Person_second_class->OutPut();
+echo 'Allsalary: '.$allsalary;
