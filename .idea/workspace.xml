@@ -10,23 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="ооп начало">
+    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="New class about person">
+      <change afterPath="$PROJECT_DIR$/server/return.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/css/mysite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/download/users.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/download/usersmale.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/html/supervisord.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/html/supervisord.pid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/img/dino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/class.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/sites/accept.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/sites/class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/sites/func.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/sites/ltf.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/sites/nowhere.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/sites/upload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/sites/users.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +110,8 @@
       <workItem from="1616088842146" duration="1700000" />
       <workItem from="1616248915487" duration="1308000" />
       <workItem from="1616284637627" duration="349000" />
-      <workItem from="1616678417598" duration="2981000" />
+      <workItem from="1616678417598" duration="4458000" />
+      <workItem from="1616786505264" duration="7198000" />
     </task>
     <task id="LOCAL-00001" summary="my pr, test commit">
       <created>1616088951056</created>
@@ -152,7 +141,35 @@
       <option name="project" value="LOCAL" />
       <updated>1616680174494</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ооп начало">
+      <created>1616684575878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616684575878</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ооп начало">
+      <created>1616684646260</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616684646260</updated>
+    </task>
+    <task id="LOCAL-00007" summary="class.php">
+      <created>1616685058967</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616685058967</updated>
+    </task>
+    <task id="LOCAL-00008" summary="New class about person">
+      <created>1616685795375</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616685795376</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +222,9 @@
     <MESSAGE value="Добавил новую ссылку" />
     <MESSAGE value="first commit project" />
     <MESSAGE value="ооп начало" />
-    <option name="LAST_COMMIT_MESSAGE" value="ооп начало" />
+    <MESSAGE value="class.php" />
+    <MESSAGE value="New class about person" />
+    <option name="LAST_COMMIT_MESSAGE" value="New class about person" />
   </component>
   <component name="WindowStateProjectService">
     <state x="460" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615739163674">
@@ -221,23 +240,27 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="526" y="359" key="Github.CreateGistDialog/0.23.1440.821@0.23.1440.821" timestamp="1616088859292" />
-    <state x="539" y="370" key="NewPhpFileDialog" timestamp="1616684530779">
+    <state x="539" y="370" key="NewPhpFileDialog" timestamp="1616857504050">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1616006106497" />
-    <state x="539" y="370" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1616684530779" />
+    <state x="539" y="370" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1616857504050" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1613312883183">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="221" y="72" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1613312883183" />
-    <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1616680576267">
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1616685804874">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1616680576267" />
-    <state x="532" y="329" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616684560592">
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1616685804874" />
+    <state x="65" y="126" width="1240" height="621" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616855330902">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="532" y="329" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1616684560592" />
+    <state x="65" y="126" width="1240" height="621" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.821@0.23.1440.821" timestamp="1616855330902" />
+    <state x="532" y="329" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616786533140">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="532" y="329" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1616786533140" />
     <state x="531" y="335" key="git4idea.ui.GitResetDialog" timestamp="1616249150689">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -246,9 +269,9 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="548" y="339" key="git4idea.ui.GitStashDialog/0.23.1440.821@0.23.1440.821" timestamp="1616259842806" />
-    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1615278363720">
+    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1616859090463">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1615278363720" />
+    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1616859090463" />
   </component>
 </project>
