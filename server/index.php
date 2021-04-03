@@ -1,154 +1,85 @@
-<?php
-$PersonName_first = 'Ivan';
-$PersonSurname_first = 'Novach';
-$PersonAge_first = '19';
-$PersonGender_first = 'Male';
-$PersonSalary_first = '1000';
-$PersonSS_first = "950";
-$PersonCourse_first = "3";
-$PersonDriving_first = '1';
-$PersonCategory_first = 'B1';
-
-$PersonName_second = 'Daniil';
-$PersonSurname_second = 'Gorbach';
-$PersonAge_second = '20';
-$PersonGender_second = 'Male';
-$PersonSalary_second = '1500';
-$PersonSS_second = "950";
-$PersonCourse_second = "4";
-$PersonDriving_second = '2';
-$PersonCategory_second = 'A1';
-
-
-class Person {
-    protected $name,$age,$surname,$gender;
-
-    public function setName(string $name){
-        $this->name = $name;
-}
-    public function getName()
-    {
-        return $this->name;
-    }
-
-
-    public function setSurname($surname){
-        $this->surname = $surname;
-    }
-    public function getSurname()
-    {
-        return $this->surname;
-    }
-
-    public function setAge(int $age){
-        $this->age = $age;
-    }
-
-
-    public function getAge()
-    {
-        return $this->age;
-    }
-
-    public function setGender($gender){
-        $this->gender = $gender;
-    }
-    public function getGender()
-    {
-        return $this->gender;
-    }
-
-}
-
-
-class Worker extends Person{
-    private $salary;
-    public function setSalary(int $salary){
-        $this->salary = $salary;
-    }
-    public function getSalary()
-    {
-        return $this->salary;
-    }
-
-
-}
-//
-
-class Student extends Worker{
-    private $scholarship,$course;
-
-    public function setSs(int $ss){
-        $this->scholarship = $ss;
-    }
-
-    public function getSs(){
-        return $this->scholarship;
-    }
-
-
-    public function setCourse(int $course){
-        $this->course = $course;
-    }
-
-    public function getCourse(){
-        return $this->course;
-    }
-
-
-}
-
-    class Driver extends Student{
-    private $driving, $category;
-        public function setDriving(int $driving){
-            $this->driving = $driving;
-        }
-
-        public function getDriving(){
-            return $this->driving;
-        }
-
-        public function setCategory($category){
-            $this->category = $category;
-        }
-
-        public function getCategory(){
-            return $this->category;
-        }
-
-
-        public function OutPut(){
-            echo 'Name: '. $this->name ." ". 'Surname: ' .$this->surname.' '. 'Age: ' . $this->age." " . 'Gender: '. $this->gender." ". 'Salary: '.$this->getSalary()." " .'Scholarship: '.$this->getSs()." ".'Course: '.$this->getCourse()." ".'Driving: ' .$this->driving." " .'Category: '.$this->category." "."<br />";
-        }
-    }
-
-
-
-
-
-
-
-$Person_first_class = new Driver();
-$Person_first_class->setName($PersonName_first);
-$Person_first_class->setSurname($PersonSurname_first);
-$Person_first_class->setAge($PersonAge_first);
-$Person_first_class->setGender($PersonGender_first);
-$Person_first_class->setSalary($PersonSalary_first);
-$Person_first_class->setSs($PersonSS_first);
-$Person_first_class->setCourse($PersonCourse_first);
-$Person_first_class->setCategory($PersonCategory_first);
-$Person_first_class->setDriving($PersonDriving_first);
-$Person_second_class = new Driver();
-$Person_second_class->setName($PersonName_second);
-$Person_second_class->setSurname($PersonSurname_second);
-$Person_second_class->setAge($PersonAge_second);
-$Person_second_class->setGender($PersonGender_second);
-$Person_second_class->setSalary($PersonSalary_second);
-$Person_second_class->setSs($PersonSS_second);
-$Person_second_class->setCourse($PersonCourse_second);
-$Person_second_class->setCategory($PersonCategory_second);
-$Person_second_class->setDriving($PersonDriving_second);
-$allsalary=$Person_first_class->getSalary()+$Person_second_class->getSalary();
-$Person_first_class->OutPut();
-$Person_second_class->OutPut();
-echo 'Allsalary: '.$allsalary;
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <title>OOP</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">Rekhlitskiy</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<form class="row g-3" action="class.php" method="post">
+    <div class="row gy-2">
+    <div class="col-auto">
+    <label for="name" class="visually-hidden">Name</label>
+    <input type="text" class="form-control" name="name" placeholder="Name">
+    </div>
+    </div>
+    <div class="row gy-2">
+    <div class="col-auto">
+    <label for="surname" class="visually-hidden">Surname</label>
+    <input type="text" class="form-control" name="surname" placeholder="Surname">
+    </div>
+    </div>
+    <div class="row gy-2">
+    <div class="col-auto">
+        <label for="age" class="visually-hidden">Age</label>
+        <input type="text" class="form-control" name="age" placeholder="Age">
+    </div>
+    </div>
+    <div class="row gy-2">
+    <div class="col-auto">
+        <label class="input-group-text" name="gender">Gender</label>
+        <select class="form-select" name="gender">
+            <option selected>Choose...</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+    </div>
+    <div class="row gy-2">
+    <div class="col-auto">
+        <label for="Salary" class="visually-hidden">Salary</label>
+        <input type="text" class="form-control" name="salary" placeholder="Salary">
+    </div>
+    </div>
+    <div class="row gy-2">
+    <div class="col-auto">
+        <label for="Driving" class="visually-hidden">Driving</label>
+        <input type="text" class="form-control" name="driving" placeholder="Driving">
+    </div>
+    </div>
+    <div class="row gy-2">
+    <div class="col-auto">
+        <label class="input-group-text" name="category">Category</label>
+        <select class="form-select" name="category">
+            <option selected>Choose...</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+    </div>
+    </div>
+    <div class="row gy-2">
+    <div class="col-auto">
+        <button type="submit" class="btn btn-outline-dark">Confirm identity</button>
+        <button type="reset" class="btn btn-outline-dark">Reset</button>
+    </div>
+    </div>
+</form>
+</body>
+</html>
