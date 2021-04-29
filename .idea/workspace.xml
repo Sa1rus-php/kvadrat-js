@@ -10,11 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="New class about person">
-      <change afterPath="$PROJECT_DIR$/server/return.php" afterDir="false" />
+    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="задание 2">
+      <change afterPath="$PROJECT_DIR$/server/pdo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/class.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/sites" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -111,7 +110,13 @@
       <workItem from="1616248915487" duration="1308000" />
       <workItem from="1616284637627" duration="349000" />
       <workItem from="1616678417598" duration="4458000" />
-      <workItem from="1616786505264" duration="7198000" />
+      <workItem from="1616786505264" duration="14355000" />
+      <workItem from="1617219369011" duration="862000" />
+      <workItem from="1617384319087" duration="3478000" />
+      <workItem from="1618155374426" duration="2573000" />
+      <workItem from="1618337906633" duration="4985000" />
+      <workItem from="1619527152086" duration="6450000" />
+      <workItem from="1619696708188" duration="3116000" />
     </task>
     <task id="LOCAL-00001" summary="my pr, test commit">
       <created>1616088951056</created>
@@ -169,7 +174,84 @@
       <option name="project" value="LOCAL" />
       <updated>1616685795376</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="extended class">
+      <created>1616860546064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616860546064</updated>
+    </task>
+    <task id="LOCAL-00010" summary="delete files">
+      <created>1616860556084</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616860556084</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add allsalary">
+      <created>1616860639249</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616860639249</updated>
+    </task>
+    <task id="LOCAL-00012" summary="rename file class.php to index.php">
+      <created>1616865587229</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616865587229</updated>
+    </task>
+    <task id="LOCAL-00013" summary="New homework">
+      <created>1617435444638</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617435444638</updated>
+    </task>
+    <task id="LOCAL-00014" summary="New homework">
+      <created>1617438297462</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617438297462</updated>
+    </task>
+    <task id="LOCAL-00015" summary="delete this file">
+      <created>1617438334551</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617438334551</updated>
+    </task>
+    <task id="LOCAL-00016" summary="oop-task 5">
+      <created>1618158481351</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618158481351</updated>
+    </task>
+    <task id="LOCAL-00017" summary="oop-task 3">
+      <created>1618341961740</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618341961740</updated>
+    </task>
+    <task id="LOCAL-00018" summary="index.php">
+      <created>1618342006765</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1618342006765</updated>
+    </task>
+    <task id="LOCAL-00019" summary="задание 2">
+      <created>1618345208288</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1618345208288</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,43 +306,58 @@
     <MESSAGE value="ооп начало" />
     <MESSAGE value="class.php" />
     <MESSAGE value="New class about person" />
-    <option name="LAST_COMMIT_MESSAGE" value="New class about person" />
+    <MESSAGE value="extended class" />
+    <MESSAGE value="delete files" />
+    <MESSAGE value="add allsalary" />
+    <MESSAGE value="rename file class.php to index.php" />
+    <MESSAGE value="New homework" />
+    <MESSAGE value="delete this file" />
+    <MESSAGE value="oop-task 5" />
+    <MESSAGE value="oop-task 3" />
+    <MESSAGE value="index.php" />
+    <MESSAGE value="задание 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="460" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615739163674">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="460" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1615739163674" />
-    <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616005656520">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="458" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616860512348">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1616005656520" />
-    <state x="458" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.821@0.23.1440.821" timestamp="1615225154952" />
+    <state x="458" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.821@0.23.1440.821" timestamp="1616860512348" />
     <state x="526" y="359" key="Github.CreateGistDialog" timestamp="1616088859292">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="526" y="359" key="Github.CreateGistDialog/0.23.1440.821@0.23.1440.821" timestamp="1616088859292" />
-    <state x="539" y="370" key="NewPhpFileDialog" timestamp="1616857504050">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="539" y="369" key="NewPhpFileDialog" timestamp="1619543223911">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1616006106497" />
-    <state x="539" y="370" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1616857504050" />
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1618343186770" />
+    <state x="539" y="369" key="NewPhpFileDialog/0.23.1440.819@0.23.1440.819" timestamp="1619543223911" />
+    <state x="539" y="370" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1617435862906" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1613312883183">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="221" y="72" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1613312883183" />
-    <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1616685804874">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1618345224254">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1616685804874" />
+    <state x="320" y="164" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1618342024739" />
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1617438346049" />
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1618345224254" />
     <state x="65" y="126" width="1240" height="621" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616855330902">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="65" y="126" width="1240" height="621" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.821@0.23.1440.821" timestamp="1616855330902" />
-    <state x="532" y="329" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616786533140">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="532" y="330" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1618345190835">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="532" y="329" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1616786533140" />
+    <state x="532" y="335" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1618341945856" />
+    <state x="532" y="329" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1617438288200" />
+    <state x="532" y="330" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.825@0.23.1440.825" timestamp="1618345190835" />
     <state x="531" y="335" key="git4idea.ui.GitResetDialog" timestamp="1616249150689">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -269,9 +366,11 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="548" y="339" key="git4idea.ui.GitStashDialog/0.23.1440.821@0.23.1440.821" timestamp="1616259842806" />
-    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1616859090463">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1619540452831">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1616859090463" />
+    <state x="425" y="159" width="670" height="742" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1618343802042" />
+    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.819@0.23.1440.819" timestamp="1619540452831" />
+    <state x="425" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1616871179460" />
   </component>
 </project>
