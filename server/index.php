@@ -14,7 +14,7 @@ if ($_SESSION['user']) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <title>Rekhlitskiy</title>
-    <link rel="stylesheet" href="set/main.css">
+    <link rel="stylesheet" href="set/css.css">
 </head>
 <body>
 
