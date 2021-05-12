@@ -12,7 +12,7 @@ require_once 'aunt/connect.php';
 <head>
     <meta charset="UTF-8">
     <title>Rekhlitskiy</title>
-    <link rel="stylesheet" href="set/css.css">
+    <link rel="stylesheet" href="set/profile.css">
 </head>
 <body>
     <form>
@@ -22,23 +22,6 @@ require_once 'aunt/connect.php';
         <a href="aunt/logout.php" class="logout">Выход</a>
     </form>
 <?php
-
-function link_bar($page, $pages_count)
-{
-    for ($j = 1; $j <= $pages_count; $j++)
-    {
-// Вывод ссылки
-        if ($j == $page) {
-            echo ' <a ><b>'.$j.'</b></a> ';
-        } else {
-            echo ' <a href='.$_SERVER['php_self'].'?page='.$j.'>'.$j.'</a> ';
-        }
-// Выводим разделитель после ссылки, кроме последней
-// например, вставить "|" между ссылками
-        if ($j != $pages_count) echo ' ';
-    }
-    return true;
-} // Конец функции
 
 
 // Подготовка к постраничному выводу
@@ -60,19 +43,36 @@ if ($page > $pages_count) $page = $pages_count;
 $start_pos = ($page - 1) * $perpage; // Начальная позиция, для запроса к БД
 
 // Вызов функции, для вывода ссылок на экран
-link_bar($page, $pages_count);
 
 // Вывод информации из базы данных
-echo '<p><b>Постраничный вывод информации</b></p>';
-$result= $connect->prepare('SELECT * FROM users limit' .$perpage. $start_pos);
+echo '<b>Постраничный вывод информации</b></br>';
+
+$sql = 'SELECT * FROM users limit ' . $start_pos . ' ,' . $perpage;
+$result= $connect->prepare($sql);
 $result->execute();
 
 while ($row = $result->fetchAll(PDO::FETCH_ASSOC)) {
     foreach ($row as $rows) {
-        print("ФИО: " . $rows['full_name'] . "; Login: " . $rows['login'] .  "; Email: ". $rows['email'] . "<br>");
+        echo "ФИО: " . $rows['full_name'] . "; Login: " . $rows['login'] .  "; Email: ". $rows['email'] . "<br>";
     }
 }
-
+function link_bar($page, $pages_count)
+{
+    for ($j = 1; $j <= $pages_count; $j++)
+    {
+// Вывод ссылки
+        if ($j == $page) {
+            echo ' <a >'.$j.'</a>';
+        } else {
+            echo ' <a href='.$_SERVER['php_self'].'?page='.$j.'>'.$j.'</a> ';
+        }
+// Выводим разделитель после ссылки, кроме последней
+// например, вставить "|" между ссылками
+        if ($j != $pages_count) echo ' | ';
+    }
+    return true;
+} // Конец функции
+link_bar($page, $pages_count);
 ?>
 
 </body>
