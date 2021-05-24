@@ -10,26 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="&#10;error correction">
-      <change afterPath="$PROJECT_DIR$/server/aunt/aunt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/aunt/aunt_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/inc/bd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/reg/reg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/reg/reg_form.php" afterDir="false" />
+    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="aunt">
+      <change afterPath="$PROJECT_DIR$/server/inc/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/aunt/connect.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/aunt/logout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/aunt/signin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/aunt/signup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/database.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/profile.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/set/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/set/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/inc/postr.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/inc/postr.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,18 +65,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/server/set" />
+      <recent name="$PROJECT_DIR$/server/sites" />
+      <recent name="$PROJECT_DIR$/server/txt" />
+      <recent name="$PROJECT_DIR$/server/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/server/sites" />
       <recent name="$PROJECT_DIR$/server/site" />
       <recent name="$PROJECT_DIR$/server/func" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/set" />
-      <recent name="$PROJECT_DIR$/server/sites" />
-      <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$/server/txt" />
-      <recent name="$PROJECT_DIR$/server/css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -142,7 +127,9 @@
       <workItem from="1620969456373" duration="9320000" />
       <workItem from="1621285870278" duration="482000" />
       <workItem from="1621314560870" duration="5853000" />
-      <workItem from="1621408786708" duration="1315000" />
+      <workItem from="1621408786708" duration="1847000" />
+      <workItem from="1621708194338" duration="7512000" />
+      <workItem from="1621833426421" duration="1032000" />
     </task>
     <task id="LOCAL-00001" summary="my pr, test commit">
       <created>1616088951056</created>
@@ -347,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620816404580</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="aunt">
+      <created>1621410946401</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1621410946402</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,12 +408,12 @@
     <MESSAGE value="задание 2" />
     <MESSAGE value="сделать вставку записи&#10;обновить данные у вставленной записи&#10;удалить какой-то элемент&#10;вывести список существующих данных" />
     <MESSAGE value="js calc" />
-    <MESSAGE value="aunt" />
     <MESSAGE value="calc" />
     <MESSAGE value="delete" />
     <MESSAGE value="test" />
     <MESSAGE value="&#10;error correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;error correction" />
+    <MESSAGE value="aunt" />
+    <option name="LAST_COMMIT_MESSAGE" value="aunt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="69" y="286" key="#SQL_Dialects" timestamp="1620160237334">
@@ -444,12 +438,12 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="526" y="359" key="Github.CreateGistDialog/0.23.1440.821@0.23.1440.821" timestamp="1616088859292" />
-    <state x="539" y="369" key="NewPhpFileDialog" timestamp="1621410331543">
+    <state x="539" y="369" key="NewPhpFileDialog" timestamp="1621711243861">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1620993069896" />
     <state x="539" y="369" key="NewPhpFileDialog/0.23.1440.819@0.23.1440.819" timestamp="1619543223911" />
-    <state x="539" y="369" key="NewPhpFileDialog/0.23.1440.820@0.23.1440.820" timestamp="1621410331543" />
+    <state x="539" y="369" key="NewPhpFileDialog/0.23.1440.820@0.23.1440.820" timestamp="1621711243861" />
     <state x="539" y="370" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1617435862906" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1613312883183">
       <screen x="0" y="23" width="1440" height="821" />
@@ -459,28 +453,31 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1440.900@0.0.1440.900" timestamp="1620899192909" />
-    <state x="320" y="164" key="Vcs.Push.Dialog.v2" timestamp="1620816417711">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="172" key="Vcs.Push.Dialog.v2" timestamp="1621410954951">
+      <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="320" y="164" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1620816417711" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1620064500251" />
     <state x="320" y="172" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1619700090984" />
+    <state x="320" y="172" key="Vcs.Push.Dialog.v2/0.23.1440.820@0.23.1440.820" timestamp="1621410954951" />
     <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1617438346049" />
     <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1618345224254" />
-    <state x="65" y="126" width="1240" height="622" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1621318136303">
-      <screen x="0" y="23" width="1440" height="820" />
+    <state x="65" y="126" width="1240" height="623" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1621719927735">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="65" y="113" width="1240" height="681" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1620810019163" />
     <state x="65" y="126" width="1240" height="620" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.819@0.23.1440.819" timestamp="1620855579351" />
     <state x="65" y="126" width="1240" height="622" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.820@0.23.1440.820" timestamp="1621318136303" />
     <state x="65" y="126" width="1240" height="621" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.821@0.23.1440.821" timestamp="1616855330902" />
-    <state x="65" y="126" width="1240" height="623" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.822@0.23.1440.822" timestamp="1620924318586" />
-    <state x="532" y="335" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620816428070">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="65" y="126" width="1240" height="623" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.822@0.23.1440.822" timestamp="1621714814502" />
+    <state x="65" y="126" width="1240" height="623" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.826@0.23.1440.826" timestamp="1621719927735" />
+    <state x="532" y="328" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1621410926316">
+      <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="532" y="335" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1620816428070" />
     <state x="532" y="327" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.816@0.23.1440.816" timestamp="1620064211955" />
     <state x="532" y="328" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.819@0.23.1440.819" timestamp="1619699991848" />
+    <state x="532" y="328" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.820@0.23.1440.820" timestamp="1621410926316" />
     <state x="532" y="329" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1617438288200" />
     <state x="532" y="330" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.825@0.23.1440.825" timestamp="1618345190835" />
     <state x="531" y="335" key="git4idea.ui.GitResetDialog" timestamp="1616249150689">
@@ -491,11 +488,23 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="548" y="339" key="git4idea.ui.GitStashDialog/0.23.1440.821@0.23.1440.821" timestamp="1616259842806" />
-    <state x="425" y="159" width="670" height="742" key="search.everywhere.popup" timestamp="1620899207278">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="425" y="168" width="670" height="677" key="search.everywhere.popup" timestamp="1621711074132">
+      <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="425" y="159" width="670" height="742" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1620899207278" />
     <state x="425" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.819@0.23.1440.819" timestamp="1620856322041" />
+    <state x="425" y="168" width="670" height="677" key="search.everywhere.popup/0.23.1440.820@0.23.1440.820" timestamp="1621711074132" />
     <state x="425" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1616871179460" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/server/inc/postr.php</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
