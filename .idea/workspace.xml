@@ -10,11 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="aunt">
-      <change afterPath="$PROJECT_DIR$/server/inc/delete.php" afterDir="false" />
+    <list default="true" id="49ecbaca-e584-44fd-a7c8-af3ded621ef4" name="Default Changelist" comment="dont work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/check.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/inc/postr.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/inc/postr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/aunt/aunt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/aunt/aunt_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/inc/bd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/inc/delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/inc/postr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/reg/reg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/reg/reg_form.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +137,8 @@
       <workItem from="1621314560870" duration="5853000" />
       <workItem from="1621408786708" duration="1847000" />
       <workItem from="1621708194338" duration="7512000" />
-      <workItem from="1621833426421" duration="1032000" />
+      <workItem from="1621833426421" duration="1704000" />
+      <workItem from="1621835449293" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="my pr, test commit">
       <created>1616088951056</created>
@@ -341,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621410946402</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="dont work">
+      <created>1621834753484</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1621834753484</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +429,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="&#10;error correction" />
     <MESSAGE value="aunt" />
-    <option name="LAST_COMMIT_MESSAGE" value="aunt" />
+    <MESSAGE value="dont work" />
+    <option name="LAST_COMMIT_MESSAGE" value="dont work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="69" y="286" key="#SQL_Dialects" timestamp="1620160237334">
@@ -438,12 +455,12 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="526" y="359" key="Github.CreateGistDialog/0.23.1440.821@0.23.1440.821" timestamp="1616088859292" />
-    <state x="539" y="369" key="NewPhpFileDialog" timestamp="1621711243861">
+    <state x="539" y="369" key="NewPhpFileDialog" timestamp="1621835660316">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1620993069896" />
     <state x="539" y="369" key="NewPhpFileDialog/0.23.1440.819@0.23.1440.819" timestamp="1619543223911" />
-    <state x="539" y="369" key="NewPhpFileDialog/0.23.1440.820@0.23.1440.820" timestamp="1621711243861" />
+    <state x="539" y="369" key="NewPhpFileDialog/0.23.1440.820@0.23.1440.820" timestamp="1621835660316" />
     <state x="539" y="370" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1617435862906" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1613312883183">
       <screen x="0" y="23" width="1440" height="821" />
@@ -453,13 +470,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1440.900@0.0.1440.900" timestamp="1620899192909" />
-    <state x="320" y="172" key="Vcs.Push.Dialog.v2" timestamp="1621410954951">
+    <state x="320" y="172" key="Vcs.Push.Dialog.v2" timestamp="1621834761601">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="320" y="164" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1620816417711" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1620064500251" />
     <state x="320" y="172" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1619700090984" />
-    <state x="320" y="172" key="Vcs.Push.Dialog.v2/0.23.1440.820@0.23.1440.820" timestamp="1621410954951" />
+    <state x="320" y="172" key="Vcs.Push.Dialog.v2/0.23.1440.820@0.23.1440.820" timestamp="1621834761601" />
     <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1617438346049" />
     <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1618345224254" />
     <state x="65" y="126" width="1240" height="623" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1621719927735">
@@ -495,16 +512,5 @@
     <state x="425" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.819@0.23.1440.819" timestamp="1620856322041" />
     <state x="425" y="168" width="670" height="677" key="search.everywhere.popup/0.23.1440.820@0.23.1440.820" timestamp="1621711074132" />
     <state x="425" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1616871179460" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/server/inc/postr.php</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
